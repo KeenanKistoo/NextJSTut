@@ -1,5 +1,18 @@
 {
-    "rewrites":  [
-      {"source": "/(.*)", "destination": "/"}
+    "rewrites": [
+        {
+            "source": "/dashboard",
+            "destination": "/app/dashboard"
+        },
+        {
+        "source": "/dashboard/customers",
+        "destination": "/app/dashboard/customers"
+        },
+        {
+        "source": "/dashboard/invoices",
+        "destination": "/app/dashboard/invoices"
+        }
+      
     ]
   }
+  
